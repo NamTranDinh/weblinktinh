@@ -1,6 +1,11 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
     <style>
@@ -20,6 +25,7 @@
             width: 100%;
             margin: 0;
             padding: 0;
+            /* background: url('https://hdwallpaperfx.com/wp-content/uploads/2023/09/iPhone-14-Pro-Christmas-Wallpaper.jpg'); */
         }
 
 
@@ -30,10 +36,14 @@
 
         }
 
+        .sparkle {
+            /* mix-blend-mode:luminosity */
+        }
+
         .text {
             padding: 15px 15px 15px 15px;
             font-family: "Ephesis", sans-serif;
-            font-size: 55px;
+            font-size: 56px;
             color: #fffefe;
             position: fixed;
             top: calc(50% - 500px);
@@ -43,10 +53,15 @@
 
         .typewriter {
             overflow: hidden;
+            /* Ensures the content is not revealed until the animation */
             border-right: 2px solid white;
+            /* The typwriter cursor */
             white-space: nowrap;
+            /* Keeps the content on a single line */
             margin: 0 auto;
+            /* Gives that scrolling effect as the typing happens */
             letter-spacing: .15em;
+            /* Adjust as needed */
             animation:
                 typing 3.5s steps(40, end) forwards,
                 blink-caret .75s step-end forwards;
