@@ -109,10 +109,13 @@ function createGift() {
   gift.style.top = '-50px';
 
   const messages = [
-    '🎁 Chúc mừng! Bạn nhận được một điều ước',
-    '🎄 Giáng sinh an lành!',
-    '⭐ Năm mới hạnh phúc!',
+    '🎁 Chúc mừng! Cậu sẽ nhận được 1 món quà!!',
+    '🎄 Giáng sinh vui vẻ nhaaaa BÀ BẾU',
+    '🙆‍♂️ Iu cậu ❤️',
     '🎅 Ho Ho Ho! Quà từ ông già Noel',
+    'Chúc Giáng Sinh vui vẻ, hạnh phúc! 🎉',
+    'Merry Christmas! 🎅',
+    'Chúc mùa Noel tràn đầy niềm vui! 🌟'
   ];
 
   gift.addEventListener('click', () => {
