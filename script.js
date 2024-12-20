@@ -112,6 +112,8 @@ function createGift() {
     '🎁 Chúc mừng! Cậu sẽ nhận được 1 món quà!!',
     '🎄 Giáng sinh vui vẻ nhaaaa BÀ BẾU',
     '🙆‍♂️ Iu cậu ❤️',
+    '🙆‍♂️ Iu cậu ❤️',
+    '🙆‍♂️ Iu cậu ❤️',
     '🎅 Ho Ho Ho! Quà từ ông già Noel',
     'Chúc Giáng Sinh vui vẻ, hạnh phúc! 🎉',
     'Merry Christmas! 🎅',
