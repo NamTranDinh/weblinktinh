@@ -37,7 +37,7 @@ body {
 
 .christmas-content {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -49,7 +49,7 @@ body {
   transform: none;
   margin-bottom: 20px;
   font-family: 'Mountains of Christmas', cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #fff;
   text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
   animation: glow 2s ease-in-out infinite alternate;
@@ -94,16 +94,16 @@ body {
 .tree {
   right: 1%;
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 500px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
 .pine-tree-img {
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
   object-fit: contain;
 }
 
@@ -213,12 +213,12 @@ body {
     no-repeat;
   background-size: contain;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: transform 1s;
   z-index: 100;
 }
 
 .gift:hover {
-  transform: scale(1.2) rotate(10deg);
+  transform: scale(1.5) rotate(10deg);
 }
 
 .gift-popup {
